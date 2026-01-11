@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bluu</title>
+<style>
+body {
+background-color: black;
+color: #00aaff;
+font-family: monospace;
+text-align: center;
+padding-top: 50px;
+}
+
+h1 {
+font-size: 60px;
+text-shadow: 0 0 10px blue;
+}
+
+.glitch {
+animation: glitch 1s infinite;
+}
+
+@keyframes glitch {
+0% { text-shadow: 2px 0 blue; }
+25% { text-shadow: -2px 0 cyan; }
+50% { text-shadow: 2px 2px blue; }
+75% { text-shadow: -2px -2px cyan; }
+100% { text-shadow: 2px 0 blue; }
+}
+
+p {
+font-size: 20px;
+max-width: 600px;
+margin: auto;
+}
+</style>
+</head>
+<body>
+
+<h1 class="glitch">BLUU</h1>
+
+<p>
+A virus-born entity from a corrupted screen.<br>
+Blue scars, blue mouth, blue glitches.<br>
+The system is no longer safe.
+</p>
+
+</body>
+</html>
